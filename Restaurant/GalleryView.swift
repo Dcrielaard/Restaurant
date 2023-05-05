@@ -36,10 +36,10 @@ struct GalleryView: View {
                 }
                 
             }
-            .padding(.horizontal)
-            .onAppear {
-                photoData = dataService.getPhotos()
             }
+        .padding(.horizontal)
+        .onAppear {
+            photoData = dataService.getPhotos()
         }
     }
 }
